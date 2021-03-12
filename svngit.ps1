@@ -2,7 +2,7 @@ $build = ''
 $sure = 0
 $title = ''
 DO {
-    $build = Read-Host -Prompt 'Release Build';
+    $build = Read-Host -Prompt 'Release Build'
     $title = "Release Build: $($build)"
     $ans = Read-Host -Prompt "Is this correct '$($title)'? (y/N)"
     if($ans -eq 'y') {
@@ -19,3 +19,4 @@ git push -u origin master
 
 
 Write-Host "$($title) Successfuly Committed"
+Read-Host -Prompt 'Press any key to exit...'
