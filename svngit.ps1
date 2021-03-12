@@ -19,4 +19,4 @@ git push -u origin master
 
 
 Write-Host "$($title) Successfuly Committed"
-Read-Host -Prompt 'Press any key to exit...'
+Read-Host -Prompt 'Press enter to exit'
