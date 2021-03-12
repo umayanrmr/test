@@ -15,7 +15,7 @@ svn commit -m $title
 
 git add .
 git commit -m $title
-git push -u origin master
+git push origin master
 
 
 Write-Host "$($title) Successfuly Committed"
